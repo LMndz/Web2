@@ -5,7 +5,7 @@ mongoose.connect(conexion,{useNewUrlParser:true, useUnifiedTopology:true});
 //definiendo el modelo
 const usuario= mongoose.model("Usuario", {nombre:String});
 //a partir del modelo creado en un objeto
-const usuario1 = new usuario({nombre: 'William FLores'})
+const usuario1 = new usuario({nombre: 'Luis Méndez'})
 //grabar en la base de datos y consultar
 
 
